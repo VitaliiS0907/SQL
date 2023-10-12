@@ -23,5 +23,5 @@ SELECT *
 FROM Printer
 WHERE color = 'y';
 
--- 
+-- Exercise: 5. Find the model number, speed and hard drive capacity of PCs cheaper than $600 having a 12x or a 24x CD drive.
 -- Задание: 5. Найдите номер модели, скорость и размер жесткого диска ПК, имеющих 12x или 24x CD и цену менее 600 дол.
