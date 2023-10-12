@@ -17,8 +17,6 @@ SELECT model, ram, screen
 FROM Laptop
 WHERE price > 1000;
 
--- Exercise: 4. Find all records from the Printer table containing data about color printers.
--- Задание: 4.Найдите все записи таблицы Printer для цветных принтеров.
 
 
 
