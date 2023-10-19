@@ -35,7 +35,7 @@ SELECT DISTINCT Product.maker, Laptop.speed
 FROM Product
 INNER JOIN Laptop
 ON Product.model = Laptop.model
-WHERE Laptop.hd >= 10
+WHERE Laptop.hd >= 10;
 
 
 -- Exercise: 7. Get the models and prices for all commercially available products (of any type) produced by maker B.
