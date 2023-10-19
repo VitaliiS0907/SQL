@@ -31,6 +31,7 @@ WHERE (cd = '12x' OR cd ='24x') AND price < 600;
 
 -- Exercise: 6. For each maker producing laptops with a hard drive capacity of 10 Gb or higher, find the speed of such laptops. Result set: maker, speed.
 -- Задание: 6. Для каждого производителя, выпускающего ПК-блокноты c объёмом жесткого диска не менее 10 Гбайт, найти скорости таких ПК-блокнотов. Вывод: производитель, скорость.
+SELECT DISTINCT Product.maker, Laptop.speed
 
 
 
