@@ -40,3 +40,7 @@ WHERE Laptop.hd >= 10;
 
 -- Exercise: 7. Get the models and prices for all commercially available products (of any type) produced by maker B.
 -- Задание: 7. Найдите номера моделей и цены всех имеющихся в продаже продуктов (любого типа) производителя B (латинская буква).
+
+
+-- Exercise: 8. Find the makers producing PCs but not laptops.
+-- Задание: 8. Найдите производителя, выпускающего ПК, но не ПК-блокноты.
