@@ -43,3 +43,5 @@ WHERE Laptop.hd >= 10;
 
 
 
+-- Exercise: 8. Find the makers producing PCs but not laptops.
+-- Задание: 8. Найдите производителя, выпускающего ПК, но не ПК-блокноты.
