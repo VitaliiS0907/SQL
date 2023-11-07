@@ -54,4 +54,6 @@ values ('John Smith'),
     ('Victoria Price'),
     ('Les Moran'),
     ('Luna Howard'),
+    ('Ethan Ross'),
+
 
