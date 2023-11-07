@@ -8,3 +8,9 @@ create table employees(
 -- 2. Наполнить таблицу employee 70 строками.
 insert into employees(employee_name)
 values ('John Smith'),
+    ('Jane Doe'),
+    ('Michael Johnson'),
+    ('Emily Davis'),
+    ('William Brown'),
+    ('Olivia Wilson'),
+    ('James Lee'),
