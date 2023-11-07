@@ -4,3 +4,5 @@ create table employees(
 	id serial  primary key,
 	employee_name varchar(50) not null
 );
+
+-- 2. Наполнить таблицу employee 70 строками.
