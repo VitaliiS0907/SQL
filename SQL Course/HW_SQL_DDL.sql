@@ -53,3 +53,5 @@ values ('John Smith'),
     ('Jackson Scott'),
     ('Victoria Price'),
     ('Les Moran'),
+    ('Luna Howard'),
+
