@@ -64,3 +64,4 @@ create table salary(
 );
 
 -- 4. Наполнить таблицу salary 15 строками.
+insert into salary(monthly_salary)
