@@ -57,3 +57,4 @@ values ('John Smith'),
     ('Ethan Ross'),
     ('Ava Jenkins');
 
+-- 3. Создать таблицу salary (id. Serial  primary key) + (monthly_salary. Int, not null)
