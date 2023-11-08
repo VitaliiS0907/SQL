@@ -58,3 +58,4 @@ values ('John Smith'),
     ('Ava Jenkins');
 
 -- 3. Создать таблицу salary (id. Serial  primary key) + (monthly_salary. Int, not null)
+create table salary(
