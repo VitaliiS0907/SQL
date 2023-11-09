@@ -85,4 +85,7 @@ values (1000),
 -- 5. Создать таблицу employee_salary (id. Serial  primary key) + (employee_id. Int, not null, unique) + (salary_id. Int, not null)
 insert into employee_salary(employee_id, salary_id)
 values (1, 1),
+    (2, 1),
+    (3, 1),
+    (4, 2),
 
