@@ -83,6 +83,8 @@ values (1000),
     (2500);
 
 -- 5. Создать таблицу employee_salary (id. Serial  primary key) + (employee_id. Int, not null, unique) + (salary_id. Int, not null)
+
+-- 6. Наполнить таблицу employee_salary 40 строками (в 10 строк из 40 вставить несуществующие employee_id):
 insert into employee_salary(employee_id, salary_id)
 values (1, 1),
     (2, 1),
@@ -124,6 +126,3 @@ values (1, 1),
     (83, 16),
     (30, 9),
     (84, 11);
-
--- 6. Наполнить таблицу employee_salary 40 строками (в 10 строк из 40 вставить несуществующие employee_id):
-
