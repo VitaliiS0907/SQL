@@ -132,4 +132,5 @@ values (1, 1),
     (30, 9),
     (84, 11);
 
--- 7. Создать таблицу roles (id. Serial  primary key) 
+-- 7. Создать таблицу roles (id. Serial  primary key) + (role_name. int, not null, unique):
+
