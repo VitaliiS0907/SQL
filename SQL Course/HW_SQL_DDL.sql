@@ -139,3 +139,4 @@ create table roles(
 );
 
 -- 8. Поменять тип столба role_name с int на varchar(30):
+alter table roles
