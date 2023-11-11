@@ -137,3 +137,5 @@ create table roles(
 	id serial  primary key,
 	role_name int unique not null
 );
+
+-- 8. Поменять тип столба role_name с int на varchar(30):
