@@ -135,3 +135,5 @@ values (1, 1),
 -- 7. Создать таблицу roles (id. Serial  primary key) + (role_name. int, not null, unique):
 create table roles(
 	id serial  primary key,
+	role_name int unique not null
+);
