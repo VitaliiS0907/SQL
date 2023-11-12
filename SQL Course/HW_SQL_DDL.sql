@@ -145,9 +145,9 @@ alter column role_name type varchar(30);
 -- 9. Наполнить таблицу roles 20 строками:
 insert into roles(role_name)
 values ('Junior Python developer'),
-	('Middle Python developer'),
-	('Senior Python developer'),
-	('Junior Java developer'),
+    ('Middle Python developer'),
+    ('Senior Python developer'),
+    ('Junior Java developer'),
     ('Middle Java developer'),
     ('Senior Java developer'),
     ('Junior JavaScript developer'),
