@@ -141,3 +141,5 @@ create table roles(
 -- 8. Поменять тип столба role_name с int на varchar(30):
 alter table roles
 alter column role_name type varchar(30);
+
+-- 9. Наполнить таблицу roles 20 строками:
