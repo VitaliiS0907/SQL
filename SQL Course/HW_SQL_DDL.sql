@@ -163,4 +163,4 @@ values ('Junior Python developer'),
 	('Sales manager'),
     ('Junior Automation QA engineer'),
 	('Middle Automation QA engineer'),
-    ('Senior Automation QA engineer')
+    ('Senior Automation QA engineer');
