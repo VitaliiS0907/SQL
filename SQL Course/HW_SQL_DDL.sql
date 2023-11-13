@@ -167,3 +167,4 @@ values ('Junior Python developer'),
 
 -- 10. Создать таблицу roles_employee (id. Serial  primary key) + (employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)) + (role_id. Int, not null (внешний ключ для таблицы roles, поле id))
 create table roles_employee(
+	id serial  primary key,
