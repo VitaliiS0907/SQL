@@ -164,3 +164,5 @@ values ('Junior Python developer'),
     ('Junior Automation QA engineer'),
     ('Middle Automation QA engineer'),
     ('Senior Automation QA engineer');
+
+-- 10. Создать таблицу roles_employee (id. Serial  primary key) + (employee_id. Int, not null, unique (внешний ключ для таблицы employees, поле id)) + (role_id. Int, not null (внешний ключ для таблицы roles, поле id))
