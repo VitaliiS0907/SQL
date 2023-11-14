@@ -174,4 +174,5 @@ create table roles_employee(
     foreign key (role_id) references roles(id)
 );
 
+-- 11. Наполнить таблицу roles_employee 40 строками:
 
