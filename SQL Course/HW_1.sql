@@ -13,6 +13,8 @@ select id from students;
 select name from students;
 
 -- 5. Вывести только email пользователей.
+select email from students;
+
 -- 6. Вывести имя и email пользователей.
 -- 7. Вывести Id, имя, email и дату создания пользователей.
 -- 8. Вывести пользователей где password 12333.
