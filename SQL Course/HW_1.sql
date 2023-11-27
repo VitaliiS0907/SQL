@@ -7,6 +7,8 @@ select * from students;
 select * from students;
 
 -- 3. Вывести только Id пользователей.
+select id from students;
+
 -- 4. Вывести только имя пользователей.
 -- 5. Вывести только email пользователей.
 -- 6. Вывести имя и email пользователей.
