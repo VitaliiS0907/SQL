@@ -10,6 +10,8 @@ select * from students;
 select id from students;
 
 -- 4. Вывести только имя пользователей.
+select name from students;
+
 -- 5. Вывести только email пользователей.
 -- 6. Вывести имя и email пользователей.
 -- 7. Вывести Id, имя, email и дату создания пользователей.
