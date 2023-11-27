@@ -19,6 +19,8 @@ select email from students;
 select name, email from students;
 
 -- 7. Вывести Id, имя, email и дату создания пользователей.
+select id, name, email from students;
+
 -- 8. Вывести пользователей где password 12333.
 -- 9. Вывести пользователей которые были созданы 2021-03-26 00:00:00.
 -- 10. Вывести пользователей где в имени есть слово "Анна".
