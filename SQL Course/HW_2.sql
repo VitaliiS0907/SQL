@@ -10,7 +10,7 @@ select employees.employee_name, salary.monthly_salary from employee_salary
 join employees
 on employee_salary.employee_id = employees.id
 join salary
-on employee_salary.salary_id =
+on employee_salary.salary_id = salary.id
 
 -- 3. Вывести все зарплатные позиции, но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
 -- 4. Вывести все зарплатные позиции  меньше 2000 но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
