@@ -8,7 +8,7 @@ on employee_salary.salary_id = salary.id;
 -- 2. Вывести всех работников у которых ЗП меньше 2000.
 select employees.employee_name, salary.monthly_salary from employee_salary
 join employees
-on employee_salary.employee_id
+on employee_salary.employee_id = employees.id
 -- 3. Вывести все зарплатные позиции, но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
 -- 4. Вывести все зарплатные позиции  меньше 2000 но работник по ним не назначен. (ЗП есть, но не понятно кто её получает.)
 -- 5. Найти всех работников кому не начислена ЗП.
