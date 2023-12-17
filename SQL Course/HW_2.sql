@@ -26,6 +26,7 @@ join employees
 on employee_salary.employee_id = employees.id
 join salary
 on employee_salary.salary_id = salary.id
+where salary.monthly_salary
 
 -- 5. Найти всех работников кому не начислена зарплата.
 -- 6. Вывести всех работников с названиями их должности.
