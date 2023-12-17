@@ -21,7 +21,7 @@ join salary
 on employee_salary.salary_id = salary.id;
 
 -- 4. Вывести все зарплатные позиции  меньше 2000 но работник по ним не назначен. (зарплата есть, но не понятно кто её получает)
-select monthly_salary
+select monthly_salary from employee_salary
 
 -- 5. Найти всех работников кому не начислена зарплата.
 -- 6. Вывести всех работников с названиями их должности.
