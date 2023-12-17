@@ -24,6 +24,7 @@ on employee_salary.salary_id = salary.id;
 select monthly_salary from employee_salary
 join employees
 on employee_salary.employee_id = employees.id
+join salary
 
 -- 5. Найти всех работников кому не начислена зарплата.
 -- 6. Вывести всех работников с названиями их должности.
