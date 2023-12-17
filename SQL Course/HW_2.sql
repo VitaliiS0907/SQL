@@ -13,14 +13,14 @@ join salary
 on employee_salary.salary_id = salary.id
 where salary.monthly_salary < 2000;
 
--- 3. Вывести все зарплатные позиции, но работник по ним не назначен. (зарплата есть, но не понятно кто её получает)
+-- 3. Вывести все зарплатные позиции, но работник по ним не назначен (зарплата есть, но не понятно кто её получает)
 select monthly_salary from employee_salary
 join employees
 on employee_salary.employee_id = employees.id
 join salary
 on employee_salary.salary_id = salary.id;
 
--- 4. Вывести все зарплатные позиции  меньше 2000 но работник по ним не назначен. (зарплата есть, но не понятно кто её получает)
+-- 4. Вывести все зарплатные позиции  меньше 2000 но работник по ним не назначен (зарплата есть, но не понятно кто её получает)
 select monthly_salary from employee_salary
 join employees
 on employee_salary.employee_id = employees.id
