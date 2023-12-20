@@ -31,7 +31,7 @@ where salary.monthly_salary < 2000;
 -- 5. Найти всех работников кому не начислена зарплата.
 select employee_name from employees
 left join employee_salary
-
+on employees.id = 
 -- 6. Вывести всех работников с названиями их должности.
 -- 7. Вывести имена и должность только Java разработчиков.
 -- 8. Вывести имена и должность только Python разработчиков.
