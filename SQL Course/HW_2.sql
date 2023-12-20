@@ -39,6 +39,7 @@ select employee_name, role_name from roles_employee
 join employees
 on roles_employee.employee_id = employees.id
 join roles
+on roles_employee.role_id =
 
 -- 7. Вывести имена и должность только Java разработчиков.
 -- 8. Вывести имена и должность только Python разработчиков.
