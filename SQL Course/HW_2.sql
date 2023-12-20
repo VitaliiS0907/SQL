@@ -35,7 +35,7 @@ on employees.id = employee_salary.employee_id
 where employee_salary.salary_id is null;
 
 -- 6. Вывести всех работников с названиями их должности.
-select employee_name, role_name
+select employee_name, role_name from roles_employee
 
 -- 7. Вывести имена и должность только Java разработчиков.
 -- 8. Вывести имена и должность только Python разработчиков.
