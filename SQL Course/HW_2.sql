@@ -38,6 +38,7 @@ where employee_salary.salary_id is null;
 select employee_name, role_name from roles_employee
 join employees
 on roles_employee.employee_id = employees.id
+join roles
 
 -- 7. Вывести имена и должность только Java разработчиков.
 -- 8. Вывести имена и должность только Python разработчиков.
