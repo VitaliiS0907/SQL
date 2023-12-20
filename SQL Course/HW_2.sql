@@ -29,7 +29,7 @@ on employee_salary.salary_id = salary.id
 where salary.monthly_salary < 2000;
 
 -- 5. Найти всех работников кому не начислена зарплата.
-select employee_name
+select employee_name from employees
 
 -- 6. Вывести всех работников с названиями их должности.
 -- 7. Вывести имена и должность только Java разработчиков.
