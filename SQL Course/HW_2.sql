@@ -46,7 +46,7 @@ select employee_name, role_name from roles_employee
 join employees
 on roles_employee.employee_id = employees.id 
 join roles
-on roles_employee.role_id
+on roles_employee.role_id = roles.id
 
 -- 8. Вывести имена и должность только Python разработчиков.
 -- 9. Вывести имена и должность всех QA инженеров.
