@@ -55,7 +55,7 @@ join employees
 on roles_employee.employee_id = employees.id 
 join roles
 on roles_employee.role_id = roles.id
-where roles.role_name
+where roles.role_name like '%Python developer%'
 
 -- 9. Вывести имена и должность всех QA инженеров.
 -- 10. Вывести имена и должность ручных QA инженеров.
