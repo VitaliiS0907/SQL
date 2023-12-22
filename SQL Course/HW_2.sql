@@ -60,7 +60,7 @@ where roles.role_name like '%Python developer%';
 -- 9. Вывести имена и должность всех QA инженеров.
 select employee_name, role_name from roles_employee
 join employees
-on roles_employee.employee_id = 
+on roles_employee.employee_id = = employees.id 
 
 -- 10. Вывести имена и должность ручных QA инженеров.
 -- 11. Вывести имена и должность автоматизаторов QA.
