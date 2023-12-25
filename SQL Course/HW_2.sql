@@ -66,7 +66,7 @@ on roles_employee.role_id = roles.id
 where roles.role_name like '%QA%';
 
 -- 10. Вывести имена и должность ручных QA инженеров.
-select employee_name, role_name 
+select employee_name, role_name from roles_employee
 
 -- 11. Вывести имена и должность автоматизаторов QA.
 -- 12. Вывести имена и зарплаты Junior специалистов.
