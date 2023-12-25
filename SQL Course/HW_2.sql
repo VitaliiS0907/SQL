@@ -70,6 +70,7 @@ select employee_name, role_name from roles_employee
 join employees
 on roles_employee.employee_id = employees.id 
 join roles
+on roles_employee.role_id =
 
 -- 11. Вывести имена и должность автоматизаторов QA.
 -- 12. Вывести имена и зарплаты Junior специалистов.
