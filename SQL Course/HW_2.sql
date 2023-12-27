@@ -86,6 +86,7 @@ select employee_name, salary.monthly_salary, roles.role_name from employees
 join employee_salary  
 on employees.id = employee_salary.employee_id 
 join salary 
+on salary.id =
 
 -- 13. Вывести имена и зарплаты Middle специалистов.
 -- 14. Вывести имена и зарплаты Senior специалистов.
