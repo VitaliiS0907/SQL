@@ -76,7 +76,7 @@ where roles.role_name '%Manual QA%';
 -- 11. Вывести имена и должность автоматизаторов QA.
 select employee_name, role_name from roles_employee
 join employees
-on roles_employee.employee_id
+on roles_employee.employee_id = employees.id 
 
 -- 12. Вывести имена и зарплаты Junior специалистов.
 -- 13. Вывести имена и зарплаты Middle специалистов.
