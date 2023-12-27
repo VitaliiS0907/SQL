@@ -78,7 +78,7 @@ select employee_name, role_name from roles_employee
 join employees
 on roles_employee.employee_id = employees.id 
 join roles
-on roles_employee.role_id
+on roles_employee.role_id = roles.id
 
 -- 12. Вывести имена и зарплаты Junior специалистов.
 -- 13. Вывести имена и зарплаты Middle специалистов.
