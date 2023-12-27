@@ -77,6 +77,7 @@ where roles.role_name '%Manual QA%';
 select employee_name, role_name from roles_employee
 join employees
 on roles_employee.employee_id = employees.id 
+join roles
 
 -- 12. Вывести имена и зарплаты Junior специалистов.
 -- 13. Вывести имена и зарплаты Middle специалистов.
