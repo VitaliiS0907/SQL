@@ -94,7 +94,7 @@ on roles.id = roles_employee.role_id
 where roles.role_name like '%Junior%';
 
 -- 13. Вывести имена и зарплаты Middle специалистов.
-select employee_name, salary.monthly_salary, roles.role_name
+select employee_name, salary.monthly_salary, roles.role_name from employees
 
 -- 14. Вывести имена и зарплаты Senior специалистов.
 -- 15. Вывести зарплаты Java разработчиков.
