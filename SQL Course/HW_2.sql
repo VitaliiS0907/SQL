@@ -91,7 +91,7 @@ join roles_employee
 on employees.id = roles_employee.employee_id
 join roles 
 on roles.id = roles_employee.role_id
-where roles.role_name
+where roles.role_name like '%Junior%';
 
 -- 13. Вывести имена и зарплаты Middle специалистов.
 -- 14. Вывести имена и зарплаты Senior специалистов.
