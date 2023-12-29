@@ -107,6 +107,7 @@ where roles.role_name like '%Middle%';
 
 -- 14. Вывести имена и зарплаты Senior специалистов.
 select employee_name, salary.monthly_salary, roles.role_name from employees
+join employee_salary 
 
 -- 15. Вывести зарплаты Java разработчиков.
 -- 16. Вывести зарплаты Python разработчиков.
