@@ -103,7 +103,7 @@ join roles_employee
 on employees.id = roles_employee.employee_id
 join roles 
 on roles.id = roles_employee.role_id
-where roles.role_name 
+where roles.role_name like '%Middle%';
 
 -- 14. Вывести имена и зарплаты Senior специалистов.
 -- 15. Вывести зарплаты Java разработчиков.
