@@ -112,6 +112,7 @@ on employees.id = employee_salary.employee_id
 join salary 
 on salary.id = employee_salary.salary_id
 join roles_employee 
+on employees.id = 
 
 -- 15. Вывести зарплаты Java разработчиков.
 -- 16. Вывести зарплаты Python разработчиков.
