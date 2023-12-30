@@ -121,6 +121,7 @@ where roles.role_name like '%Senior%';
 select salary.monthly_salary, roles.role_name from salary
 join employee_salary 
 on salary.id = employee_salary.salary_id
+join roles_employee 
 
 -- 16. Вывести зарплаты Python разработчиков.
 -- 17. Вывести имена и зарплаты Junior Python разработчиков.
