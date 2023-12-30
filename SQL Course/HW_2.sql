@@ -124,7 +124,7 @@ on salary.id = employee_salary.salary_id
 join roles_employee 
 on roles_employee.employee_id = employee_salary.employee_id
 join roles 
-on roles.id = 
+on roles.id = roles_employee.role_id
 
 -- 16. Вывести зарплаты Python разработчиков.
 -- 17. Вывести имена и зарплаты Junior Python разработчиков.
