@@ -122,7 +122,7 @@ select salary.monthly_salary, roles.role_name from salary
 join employee_salary 
 on salary.id = employee_salary.salary_id
 join roles_employee 
-on roles_employee.employee_id = 
+on roles_employee.employee_id = employee_salary.employee_id
 
 -- 16. Вывести зарплаты Python разработчиков.
 -- 17. Вывести имена и зарплаты Junior Python разработчиков.
