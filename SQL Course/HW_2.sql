@@ -147,7 +147,7 @@ join roles_employee
 on employees.id = roles_employee.employee_id
 join roles 
 on roles.id = roles_employee.role_id
-where roles.role_name
+where roles.role_name like '%Junior Python developer%';
 
 -- 18. Вывести имена и зарплаты Middle JS разработчиков.
 -- 19. Вывести имена и зарплаты Senior Java разработчиков.
