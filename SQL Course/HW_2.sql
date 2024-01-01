@@ -144,7 +144,7 @@ on employees.id = employee_salary.employee_id
 join salary 
 on salary.id = employee_salary.salary_id
 join roles_employee 
-
+on employees.id = 
 
 -- 18. Вывести имена и зарплаты Middle JS разработчиков.
 -- 19. Вывести имена и зарплаты Senior Java разработчиков.
