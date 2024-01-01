@@ -140,7 +140,7 @@ where roles.role_name like '%Python developer%';
 -- 17. Вывести имена и зарплаты Junior Python разработчиков.
 select employee_name, salary.monthly_salary, roles.role_name from employees
 join employee_salary 
-on employees.id = 
+on employees.id = employee_salary.employee_id 
 
 -- 18. Вывести имена и зарплаты Middle JS разработчиков.
 -- 19. Вывести имена и зарплаты Senior Java разработчиков.
