@@ -155,6 +155,8 @@ join employee_salary
 on employees.id = employee_salary.employee_id
 join salary 
 on salary.id = employee_salary.salary_id
+join roles_employee 
+
 
 -- 19. Вывести имена и зарплаты Senior Java разработчиков.
 -- 20. Вывести зарплаты Junior QA инженеров.
