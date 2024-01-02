@@ -154,7 +154,7 @@ select employee_name, salary.monthly_salary, roles.role_name from employees
 join employee_salary 
 on employees.id = employee_salary.employee_id
 join salary 
-on salary.id = 
+on salary.id = employee_salary.salary_id
 
 -- 19. Вывести имена и зарплаты Senior Java разработчиков.
 -- 20. Вывести зарплаты Junior QA инженеров.
