@@ -164,6 +164,7 @@ join employee_salary
 on employees.id = employee_salary.employee_id
 join salary 
 on salary.id = employee_salary.salary_id
+join roles_employee 
 
 
 -- 20. Вывести зарплаты Junior QA инженеров.
