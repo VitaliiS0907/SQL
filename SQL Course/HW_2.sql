@@ -161,7 +161,7 @@ on employees.id = roles_employee.employee_id
 -- 19. Вывести имена и зарплаты Senior Java разработчиков.
 select employee_name, salary.monthly_salary, roles.role_name from employees
 join employee_salary 
-
+on employees.id =
 
 -- 20. Вывести зарплаты Junior QA инженеров.
 -- 21. Вывести среднюю зарплату всех Junior специалистов.
