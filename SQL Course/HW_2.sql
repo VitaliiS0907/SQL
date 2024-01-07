@@ -174,7 +174,7 @@ where roles.role_name like '%Senior Java developer%';
 select salary.monthly_salary, roles.role_name from salary
 full outer join employee_salary 
 on salary.id = employee_salary.salary_id
-full outer
+full outer join roles_employee 
 
 -- 21. Вывести среднюю зарплату всех Junior специалистов.
 -- 22. Вывести сумму зарплат JS разработчиков.
