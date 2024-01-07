@@ -172,6 +172,7 @@ where roles.role_name like '%Senior Java developer%';
 
 -- 20. Вывести зарплаты Junior QA инженеров.
 select salary.monthly_salary, roles.role_name from salary
+full outer join employee_salary 
 
 
 
