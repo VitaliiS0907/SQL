@@ -168,6 +168,7 @@ join roles_employee
 on employees.id = roles_employee.employee_id
 join roles 
 on roles.id = roles_employee.role_id
+where roles.role_name
 
 -- 20. Вывести зарплаты Junior QA инженеров.
 -- 21. Вывести среднюю зарплату всех Junior специалистов.
