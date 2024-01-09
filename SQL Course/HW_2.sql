@@ -185,6 +185,7 @@ select avg(salary.monthly_salary) from salary
 join employee_salary 
 on salary.id = employee_salary.salary_id
 join roles_employee 
+on roles_employee.employee_id 
 
 -- 22. Вывести сумму зарплат JS разработчиков.
 -- 23. Вывести минимальную зарплату QA инженеров.
