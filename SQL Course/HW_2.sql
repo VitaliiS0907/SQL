@@ -176,7 +176,7 @@ full outer join employee_salary
 on salary.id = employee_salary.salary_id
 full outer join roles_employee 
 on roles_employee.employee_id = employee_salary.employee_id
-full outer
+full outer join roles
 
 
 -- 21. Вывести среднюю зарплату всех Junior специалистов.
