@@ -177,7 +177,7 @@ on salary.id = employee_salary.salary_id
 full outer join roles_employee 
 on roles_employee.employee_id = employee_salary.employee_id
 full outer join roles
-on roles.id = 
+on roles.id = roles_employee.role_id
 
 -- 21. Вывести среднюю зарплату всех Junior специалистов.
 -- 22. Вывести сумму зарплат JS разработчиков.
