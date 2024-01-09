@@ -183,7 +183,7 @@ where roles.role_name like '%Junior% QA%';
 -- 21. Вывести среднюю зарплату всех Junior специалистов.
 select avg(salary.monthly_salary) from salary
 join employee_salary 
-on salary.id = 
+on salary.id = employee_salary.salary_id
 
 -- 22. Вывести сумму зарплат JS разработчиков.
 -- 23. Вывести минимальную зарплату QA инженеров.
