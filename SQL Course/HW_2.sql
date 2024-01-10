@@ -194,7 +194,7 @@ where roles.role_name like '%Junior%';
 select round((salary.monthly_salary)) from salary
 join employee_salary 
 on salary.id = employee_salary.salary_id
-
+join 
 -- 23. Вывести минимальную зарплату QA инженеров.
 -- 24. Вывести максимальную зарплату QA инженеров.
 -- 25. Вывести количество QA инженеров.
