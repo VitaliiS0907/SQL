@@ -196,7 +196,7 @@ join employee_salary
 on salary.id = employee_salary.salary_id
 join roles
 on roles.id = roles_employee.role_id
-where roles.role_name 
+where roles.role_name like '%Junior%';
 
 -- 23. Вывести минимальную зарплату QA инженеров.
 -- 24. Вывести максимальную зарплату QA инженеров.
