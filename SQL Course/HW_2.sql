@@ -190,6 +190,9 @@ join roles
 on roles.id = roles_employee.role_id
 where roles.role_name like '%Junior%';
 
+
+-- Чтобы округлить результат нужно добавить функцию ROUND:
+
 -- 22. Вывести сумму зарплат JS разработчиков.
 select round((salary.monthly_salary)) from salary
 join employee_salary 
