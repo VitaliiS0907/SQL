@@ -202,6 +202,7 @@ where roles.role_name like '%Junior%';
 select sum(salary.monthly_salary) from salary
 join employee_salary 
 on salary.id = employee_salary.salary_id
+join roles_employee 
 
 
 -- 23. Вывести минимальную зарплату QA инженеров.
