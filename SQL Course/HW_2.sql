@@ -200,6 +200,8 @@ where roles.role_name like '%Junior%';
 
 -- 22. Вывести сумму зарплат JS разработчиков.
 select sum(salary.monthly_salary) from salary
+join employee_salary 
+
 -- 23. Вывести минимальную зарплату QA инженеров.
 -- 24. Вывести максимальную зарплату QA инженеров.
 -- 25. Вывести количество QA инженеров.
