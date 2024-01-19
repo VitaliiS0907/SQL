@@ -209,6 +209,9 @@ on roles.id = roles_employee.role_id
 where roles.role_name like '%J%S% developer%';
 
 -- 23. Вывести минимальную зарплату QA инженеров.
+select min
+
+
 -- 24. Вывести максимальную зарплату QA инженеров.
 -- 25. Вывести количество QA инженеров.
 -- 26. Вывести количество Middle специалистов.
