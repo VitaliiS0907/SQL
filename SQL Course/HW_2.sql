@@ -216,6 +216,7 @@ join roles_employee
 on roles_employee.employee_id = employee_salary.employee_id
 join roles 
 on roles.id = roles_employee.role_id
+where roles.role_name 
 
 -- 24. Вывести максимальную зарплату QA инженеров.
 -- 25. Вывести количество QA инженеров.
