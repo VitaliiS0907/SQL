@@ -209,7 +209,7 @@ on roles.id = roles_employee.role_id
 where roles.role_name like '%J%S% developer%';
 
 -- 23. Вывести минимальную зарплату QA инженеров.
-select min
+select min(salary.monthly_salary) 
 
 
 -- 24. Вывести максимальную зарплату QA инженеров.
