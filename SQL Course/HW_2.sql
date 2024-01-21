@@ -219,6 +219,8 @@ on roles.id = roles_employee.role_id
 where roles.role_name like '%QA%';
 
 -- 24. Вывести максимальную зарплату QA инженеров.
+select max(salary.monthly_salary) from salary
+
 -- 25. Вывести количество QA инженеров.
 -- 26. Вывести количество Middle специалистов.
 -- 27. Вывести количество разработчиков.
