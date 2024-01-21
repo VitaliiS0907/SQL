@@ -225,6 +225,7 @@ on salary.id = employee_salary.salary_id
 join roles_employee 
 on roles_employee.employee_id = roles_employee.employee_id
 join roles 
+on roles.id = roles_employee.role_id
 
 -- 25. Вывести количество QA инженеров.
 -- 26. Вывести количество Middle специалистов.
