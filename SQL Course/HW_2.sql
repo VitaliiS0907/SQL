@@ -226,6 +226,7 @@ join roles_employee
 on roles_employee.employee_id = employee_salary.employee_id
 join roles 
 on roles.id = roles_employee.role_id
+where roles.role_name like '%QA%';
 
 -- 25. Вывести количество QA инженеров.
 -- 26. Вывести количество Middle специалистов.
