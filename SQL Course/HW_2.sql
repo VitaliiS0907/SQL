@@ -229,6 +229,8 @@ on roles.id = roles_employee.role_id
 where roles.role_name like '%QA%';
 
 -- 25. Вывести количество QA инженеров.
+select count(roles.role_name) from roles_employee 
+
 -- 26. Вывести количество Middle специалистов.
 -- 27. Вывести количество разработчиков.
 -- 28. Вывести фонд (сумму) зарплаты разработчиков.
