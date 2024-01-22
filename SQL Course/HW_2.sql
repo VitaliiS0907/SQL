@@ -238,6 +238,8 @@ where roles.role_name like '%QA%';
 
 -- 26. Вывести количество Middle специалистов.
 select count(roles.role_name) from roles_employee 
+join employees 
+
 
 -- 27. Вывести количество разработчиков.
 -- 28. Вывести фонд (сумму) зарплаты разработчиков.
