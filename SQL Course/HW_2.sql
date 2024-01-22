@@ -234,7 +234,7 @@ join employees
 on roles_employee.employee_id = employees.id 
 join roles
 on roles_employee.employee_id = roles.id
-
+where roles.role_name like '%QA%';
 
 -- 26. Вывести количество Middle специалистов.
 -- 27. Вывести количество разработчиков.
