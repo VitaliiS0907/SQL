@@ -240,6 +240,7 @@ where roles.role_name like '%QA%';
 select count(roles.role_name) from roles_employee 
 join employees 
 on roles_employee.employee_id = employees.id 
+join roles
 
 
 -- 27. Вывести количество разработчиков.
