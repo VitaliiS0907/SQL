@@ -242,7 +242,7 @@ join employees
 on roles_employee.employee_id = employees.id 
 join roles
 on roles_employee.employee_id = roles.id
-
+where roles.role_name like '%Middle%';
 
 -- 27. Вывести количество разработчиков.
 -- 28. Вывести фонд (сумму) зарплаты разработчиков.
