@@ -233,6 +233,7 @@ select count(roles.role_name) from roles_employee
 join employees 
 on roles_employee.employee_id = employees.id 
 join roles
+on roles_employee.employee_id = roles.id
 
 
 -- 26. Вывести количество Middle специалистов.
