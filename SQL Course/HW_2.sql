@@ -250,7 +250,7 @@ join employees
 on roles_employee.employee_id = employees.id 
 join roles
 on roles_employee.employee_id = roles.id
-
+where roles.role_name like '%developer%';
 
 -- 28. Вывести фонд (сумму) зарплаты разработчиков.
 -- 29. Вывести имена, должности и зарплату всех специалистов по возрастанию.
