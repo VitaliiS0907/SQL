@@ -259,6 +259,7 @@ on salary.id = employee_salary.salary_id
 join roles_employee
 on roles_employee.employee_id = employee_salary.employee_id 
 join roles 
+on roles.id = roles_employee.role_id
 
 -- 29. Вывести имена, должности и зарплату всех специалистов по возрастанию.
 -- 30. Вывести имена, должности и зарплату всех специалистов по возрастанию специалистов, у которых зарплата от 1700 до 2300.
