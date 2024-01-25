@@ -255,6 +255,7 @@ where roles.role_name like '%developer%';
 -- 28. Вывести фонд (сумму) зарплаты разработчиков.
 select sum(monthly_salary) from salary
 join employee_salary 
+on salary.id = employee_salary.salary_id 
 
 -- 29. Вывести имена, должности и зарплату всех специалистов по возрастанию.
 -- 30. Вывести имена, должности и зарплату всех специалистов по возрастанию специалистов, у которых зарплата от 1700 до 2300.
