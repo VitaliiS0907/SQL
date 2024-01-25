@@ -247,6 +247,7 @@ where roles.role_name like '%Middle%';
 -- 27. Вывести количество разработчиков.
 select count(roles.role_name) from roles_employee 
 join employees 
+on roles_employee.employee_id = employees.id 
 
 
 -- 28. Вывести фонд (сумму) зарплаты разработчиков.
