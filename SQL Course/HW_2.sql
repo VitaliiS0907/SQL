@@ -267,6 +267,7 @@ select employees.employee_name, roles.role_name, salary.monthly_salary from empl
 join roles_employee
 on employees.id = roles_employee.employee_id 
 join roles 
+on roles.id = roles_employee.role_id
 
 
 -- 30. Вывести имена, должности и зарплату всех специалистов по возрастанию специалистов, у которых зарплата от 1700 до 2300.
