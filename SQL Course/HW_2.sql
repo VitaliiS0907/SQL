@@ -266,6 +266,7 @@ where roles.role_name like '%developer%';
 select employees.employee_name, roles.role_name, salary.monthly_salary from employees
 join roles_employee
 on employees.id = roles_employee.employee_id 
+join roles 
 
 
 -- 30. Вывести имена, должности и зарплату всех специалистов по возрастанию специалистов, у которых зарплата от 1700 до 2300.
