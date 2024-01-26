@@ -272,7 +272,7 @@ join employee_salary
 on employee_salary.employee_id = roles_employee.employee_id 
 join salary
 on salary.id = employee_salary.salary_id
-
+order by salary.monthly_salary;
 
 -- 30. Вывести имена, должности и зарплату всех специалистов по возрастанию специалистов, у которых зарплата от 1700 до 2300.
 -- 31. Вывести имена, должности и зарплату всех специалистов по возрастанию у специалистов, у которых зарплата меньше 2300.
