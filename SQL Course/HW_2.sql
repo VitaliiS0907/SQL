@@ -277,6 +277,7 @@ order by salary.monthly_salary;
 -- 30. Вывести имена, должности и зарплату всех специалистов по возрастанию специалистов, у которых зарплата от 1700 до 2300.
 select employee_name, role_name, monthly_salary from employees
 join roles_employee
+on employees.id = roles_employee.employee_id 
 
 -- 31. Вывести имена, должности и зарплату всех специалистов по возрастанию у специалистов, у которых зарплата меньше 2300.
 
