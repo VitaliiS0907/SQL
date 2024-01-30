@@ -286,6 +286,7 @@ join salary
 on salary.id = employee_salary.salary_id
 where monthly_salary between 1700 and 2300
 -- Если фильтрация по зарплате то "monthly_salary", если по должности то "role_name"
+order by monthly_salary;
 
 -- 31. Вывести имена, должности и зарплату всех специалистов по возрастанию у специалистов, у которых зарплата меньше 2300.
 
