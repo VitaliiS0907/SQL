@@ -297,6 +297,7 @@ on roles.id = roles_employee.role_id
 join employee_salary 
 on employee_salary.employee_id = roles_employee.employee_id 
 join salary
+on salary.id = employee_salary.salary_id
 
 -- 32. Вывести имена, должности и ЗП всех специалистов по возрастанию у специалистов, у которых зарплата равна 1100, 1500, 2000.
 
