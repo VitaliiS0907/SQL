@@ -302,4 +302,5 @@ where monthly_salary < 2300
 order by monthly_salary;
 
 -- 32. Вывести имена, должности и ЗП всех специалистов по возрастанию у специалистов, у которых зарплата равна 1100, 1500, 2000.
+select employee_name, role_name, monthly_salary from employees
 
