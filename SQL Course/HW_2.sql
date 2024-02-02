@@ -306,4 +306,5 @@ select employee_name, role_name, monthly_salary from employees
 join roles_employee
 on employees.id = roles_employee.employee_id
 join roles  
+on roles.id = roles_employee.role_id
 
