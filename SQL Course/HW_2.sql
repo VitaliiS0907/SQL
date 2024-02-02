@@ -312,4 +312,4 @@ on employee_salary.employee_id = roles_employee.employee_id
 join salary
 on salary.id = employee_salary.salary_id
 where monthly_salary in (1100, 1500, 2000)
-
+order by monthly_salary;
