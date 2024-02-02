@@ -307,4 +307,5 @@ join roles_employee
 on employees.id = roles_employee.employee_id
 join roles  
 on roles.id = roles_employee.role_id
+join employee_salary 
 
